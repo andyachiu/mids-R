@@ -25,11 +25,11 @@ launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytues
 
 ```{r}
 launches %>%
-    select(state_code, agency, agency_type)
+    select(launch_year, state_code, agency, agency_type) %>%
+    View()
 ```
 
 - From the launches data, `select()` only the columns that are related to time
 
 ```{r}
-
 ```
